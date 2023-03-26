@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/button_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/helper_keyboard_background"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <android.widget.Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/tab"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/tab_button"
+            android:textAllCaps="false"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/left_curly_brace"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/left_curly_braces"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/rightCurlyBrace"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/rightCurlyBraces"/>
+
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/semicolon"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/semicolon"/>
+
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/leftOpenBracket"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/left_parentheses"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/rightOpenBracket"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/right_parentheses"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/leftSquareBracket"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/left_square_bracket"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/rightSquareBracket"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/right_square_bracket"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/equals"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/equals_btn"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/period"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/period"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/comma"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/comma"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/leftAngleBracket"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/left_angle_bracket"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/rightAngleBracket"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/right_angle_bracket"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/apostrophy"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/apostrophy"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/singleApostrophy"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/single_apostrophy"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/tilde"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/tilde"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/plus"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/plus"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/minus"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/minus"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/multiply"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/multiply"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/divide"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/diivde"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/multiline_comment"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/comment_multi"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/comment_single"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/backslash"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/exponential"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/exponential"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/remainder"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/remainder"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/amp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/ampersand"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/colon"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/colon"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/verticalBar"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/vertical_bar"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/at"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/at"/>
+
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/exclamation"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/exclamation"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/question"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/question"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/underline"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/lower_hyphen"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/dollar"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/dollar"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/hashtag"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/hash"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/quote"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/quote"/>
+
+    </LinearLayout>
+</HorizontalScrollView>

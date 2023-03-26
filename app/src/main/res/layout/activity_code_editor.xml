@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".CodeEditorActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"
+        android:background="@color/toolbar_color"
+        app:elevation="0dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            app:subtitleTextColor="@color/white"
+            app:title="Code Editor"
+            app:titleTextColor="@color/white" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <EditText
+        android:id="@+id/title_edit_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_layout"
+        android:autofillHints="no"
+        android:inputType="textNoSuggestions|textLongMessage"
+        android:isScrollContainer="true"
+        android:padding="15dp"
+        android:textColorHint="@color/text_color_hint"
+        android:hint="@string/code_title_goes_here"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/code_edit_txt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/helper_keyboard"
+        android:layout_below="@+id/title_edit_txt"
+        android:autofillHints="No"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+        android:hint="@string/your_code_goes_here"
+        android:textColorHint="@color/text_color_hint"
+        android:inputType="textNoSuggestions|textMultiLine|textWebEditText"
+        android:isScrollContainer="true"
+        android:linksClickable="true"
+        android:padding="10dp"
+        android:scrollHorizontally="false"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <include
+        android:id="@+id/helper_keyboard"
+        layout="@layout/helper_keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

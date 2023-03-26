@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Java Editor</string>
+
+    <!-- Main Activity strings -->
+    <string name="code_title_goes_here">Code title goes here.</string>
+    <string name="your_code_goes_here">Your code goes here.</string>
+
+    <!-- Helper keyboard buttons -->
+    <string name="apostrophy">\"</string>
+    <string name="amp"><![CDATA[&]]></string>
+    <string name="question">\?</string>
+    <string name="tab">tab</string>
+    <string name="left_curly_brace">{</string>
+    <string name="rightCurlyBrace">}</string>
+    <string name="semicolon">;</string>
+    <string name="equals">=</string>
+    <string name="leftOpenBracket">(</string>
+    <string name="rightOpenBracket">)</string>
+    <string name="leftSquareBracket">[</string>
+    <string name="rightSquareBracket">]</string>
+    <string name="leftAngleBracket"><![CDATA[<]]></string>
+    <string name="rightAngleBracket"><![CDATA[>]]></string>
+    <string name="singleApostrophy">\'</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="multiply">*</string>
+    <string name="divide">/</string>
+    <string name="exponential">^</string>
+    <string name="remainder">%</string>
+    <string name="colon">:</string>
+    <string name="verticalBar">|</string>
+    <string name="hashtag">#</string>
+    <string name="exclamation">!</string>
+    <string name="underline">_</string>
+    <string name="dollar">$</string>
+    <string name="comma">,</string>
+    <string name="period">.</string>
+    <string name="tilde">~</string>
+    <string name="quote">`</string>
+    <string name="at">\@</string>
+    <string name="multiline_comment">/**/</string>
+    <string name="comment_single">\\</string>
+    <string name="search_menu">Search_menu</string>
+    <string name="no_code">No Code</string>
+    <string name="click_on_the_icon_to_add_a_new_code">Click on the + icon to add a new code.</string>
+    <string name="add_new">Add new</string>
+    <string name="search">Search your codes here!</string>
+    <string name="icon">icon</string>
+    <string name="code_title">Code Title</string>
+
+</resources>

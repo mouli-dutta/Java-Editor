@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#222222</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Background Colors -->
+    <color name="toolbar_color">#1564c0</color>
+    <color name="helper_keyboard_background">#272727</color>
+
+    <!-- Colors for syntax highlighting -->
+    <color name="syntax_purple">#F2A09BD3</color>
+    <color name="syntax_green">#F2719E5D</color>
+    <color name="syntax_blue">#E075BBC7</color>
+    <color name="syntax_yellow">#EBEDC18E</color>
+    <color name="syntax_red">#fe8282</color>
+    <color name="syntax_plain_text">#f4f4f4</color>
+    <color name="syntax_comment">#7F7F81</color>
+    <color name="code_title_background">#333a40</color>
+    <color name="text_color_hint">#565b5f</color>
+
+</resources>
